@@ -108,7 +108,7 @@ def main():
         "timestamp": datetime.utcnow().isoformat()
     }
 
-    with open("sample_output.json", "w") as f:
+    with open("kyc_session.json", "w") as f:
         json.dump(session_data, f, indent=4)
 
     speak("Your KYC verification is completed successfully. Thank you for using Decentro.")
